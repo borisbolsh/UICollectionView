@@ -11,9 +11,6 @@
 		452E6AF127B2CFB50008C7BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452E6AF027B2CFB50008C7BF /* ViewController.swift */; };
 		452E6AF627B2CFB80008C7BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452E6AF527B2CFB80008C7BF /* Assets.xcassets */; };
 		452E6AF927B2CFB80008C7BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452E6AF727B2CFB80008C7BF /* LaunchScreen.storyboard */; };
-		456DB99F27B2EBFA004C7763 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DB99E27B2EBFA004C7763 /* MyCollectionViewCell.swift */; };
-		456DB9A127B2EE60004C7763 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DB9A027B2EE60004C7763 /* HeaderCollectionReusableView.swift */; };
-		456DB9A427B2EEA2004C7763 /* FooterCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DB9A327B2EEA2004C7763 /* FooterCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +20,6 @@
 		452E6AF527B2CFB80008C7BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		452E6AF827B2CFB80008C7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		452E6AFA27B2CFB80008C7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		456DB99E27B2EBFA004C7763 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
-		456DB9A027B2EE60004C7763 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
-		456DB9A327B2EEA2004C7763 /* FooterCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				452E6B0127B2D36C0008C7BF /* App */,
-				452E6B0227B2D3730008C7BF /* Screens */,
+				452E6B0227B2D3730008C7BF /* Screen */,
 				452E6B0027B2D32C0008C7BF /* Resources */,
 			);
 			path = CollectionView;
@@ -83,48 +77,12 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		452E6B0227B2D3730008C7BF /* Screens */ = {
+		452E6B0227B2D3730008C7BF /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				456DB9A627B2EF50004C7763 /* Main */,
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		456DB99D27B2EBE0004C7763 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				456DB99E27B2EBFA004C7763 /* MyCollectionViewCell.swift */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		456DB9A227B2EE6A004C7763 /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				456DB9A027B2EE60004C7763 /* HeaderCollectionReusableView.swift */,
-			);
-			name = Header;
-			sourceTree = "<group>";
-		};
-		456DB9A527B2EEA6004C7763 /* Footer */ = {
-			isa = PBXGroup;
-			children = (
-				456DB9A327B2EEA2004C7763 /* FooterCollectionReusableView.swift */,
-			);
-			path = Footer;
-			sourceTree = "<group>";
-		};
-		456DB9A627B2EF50004C7763 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				456DB9A227B2EE6A004C7763 /* Header */,
-				456DB9A527B2EEA6004C7763 /* Footer */,
-				456DB99D27B2EBE0004C7763 /* Cell */,
 				452E6AF027B2CFB50008C7BF /* ViewController.swift */,
 			);
-			name = Main;
-			path = Header;
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,11 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				456DB9A127B2EE60004C7763 /* HeaderCollectionReusableView.swift in Sources */,
-				456DB9A427B2EEA2004C7763 /* FooterCollectionReusableView.swift in Sources */,
 				452E6AF127B2CFB50008C7BF /* ViewController.swift in Sources */,
 				452E6AED27B2CFB50008C7BF /* AppDelegate.swift in Sources */,
-				456DB99F27B2EBFA004C7763 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
